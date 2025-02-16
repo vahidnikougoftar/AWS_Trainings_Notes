@@ -21,4 +21,6 @@
 2. Fine-Tuning: a supervised learning step (remember FMs are initially self-supervised pre-training) with narrower dataset to update parameters of the NN.
    2.1. Instruction fine-tuning uses examples of how the model should respond to a specific instruction. Prompt tuning is a type of instruction fine-tuning.
    2.2. Reinforcement learning from human feedback (RLHF) provides human feedback data, resulting in a model that is better aligned with human preferences.
+3. RAG (Retrieval Augmented Generation)
+This technique is similar to fine-tuning. However, rather than having to fine-tune an FM with a small set of labeled examples, RAG retrieves a small set of relevant documents and uses that to provide context to answer the user prompt. RAG will not change the weights of the foundation model, whereas fine-tuning will change model weights.
    
