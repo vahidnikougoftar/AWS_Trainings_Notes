@@ -15,4 +15,10 @@
 3. Multimodal Models
 4. GANs (Generative Adversarial Networks)
 6. Variational Autoencoders (encode / decode steps: the model encodes the input data into a Latent Space: lower level representation of input data; then decodes a Guassian statistical representation of the model to generate new data)
-7. 
+
+## <b>Optimizing</b> the FM : 
+1. Prompt engineering : fastest and lowest cost
+2. Fine-Tuning: a supervised learning step (remember FMs are initially self-supervised pre-training) with narrower dataset to update parameters of the NN.
+   2.1. Instruction fine-tuning uses examples of how the model should respond to a specific instruction. Prompt tuning is a type of instruction fine-tuning.
+   2.2. Reinforcement learning from human feedback (RLHF) provides human feedback data, resulting in a model that is better aligned with human preferences.
+   
