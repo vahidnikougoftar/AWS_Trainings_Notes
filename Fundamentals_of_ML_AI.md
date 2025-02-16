@@ -10,4 +10,9 @@
 6. Monitoring and improvements : model drift (less accurate results over time with new data)
 
 # Types of Foundational Models:
- <row>LLMs</row><row>Diffusion Models</row>
+1. LLMs
+2. Diffusion Models (forward Diffusion => Reverse Diffusion)
+3. Multimodal Models
+4. GANs (Generative Adversarial Networks)
+6. Variational Autoencoders (encode / decode steps: the model encodes the input data into a Latent Space: lower level representation of input data; then decodes a Guassian statistical representation of the model to generate new data)
+7. 
