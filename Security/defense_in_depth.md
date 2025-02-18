@@ -14,3 +14,9 @@ Different Layers of Security on AWS:
 6. Threat Detection (AWS Security Hub, Amazon GuardDuty) and Incident Response (AWS Lambda, Amazon EventBridge)
 7. Implement protocol of Least Priviledge to limit access to absolute necessary
 
+# Challenges of Compliance in AI Projects:
+1. Complexity (hard to interpret how the AI model, specailly LLMs, arrived at the utput)
+2. Dynamism (ever changing and evolving)
+3. Emergent capabilities (lead to new and unexpected results and outcomes that were not anticipated during the regulatory process)
+4. novel risks (algorithm biases, human biases)
+
