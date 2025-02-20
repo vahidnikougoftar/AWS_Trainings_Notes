@@ -3,3 +3,5 @@
 * AWS PrivateLink helps to establish private connectivity from your Amazon VPC to Amazon Bedrock, without having to expose your VPC to internet traffic.
 * [Amazon Inspector](https://aws.amazon.com/inspector/) is an automated vulnerability management service that continually scans AWS workloads for software vulnerabilities and unintended network exposure.
 * [Amazon Detective](https://aws.amazon.com/detective/) streamlines the investigative process and helps security teams conduct faster and more effective forensic investigations.
+* AWS WAF helps you protect against common web exploits and bots that can affect availability, compromise security, or consume excessive resources.
+* 
